@@ -1,8 +1,9 @@
+#!/usr/bin/env python
 import numpy
 import pandas
 import os
 
-Location = r'/Users/ruthpearson/Desktop/Pet_data/registeredpets.csv'
+Location = r'registeredpets.csv'
 pets = pandas.read_csv(Location, names=['suburb','breed','type','colour','registered','age','name'])
 
 
